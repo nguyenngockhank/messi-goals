@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,19 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  color: #330366;
+  font-family: var(--font-mono);
+  /* text-transform: uppercase; */
+}
+
+.highlight {
+  color: var(--primary);
+  /* color: #d596d5 */
 }
 
 .description {
